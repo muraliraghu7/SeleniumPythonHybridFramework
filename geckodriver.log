@@ -1,0 +1,43 @@
+1648453221524	geckodriver	INFO	Listening on 127.0.0.1:50102
+1648453224602	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50103" "-no-remote" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofilehmbyVW"
+1648453225685	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofilehmbyVW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50103/devtools/browser/fe8b6599-e194-44d8-a921-ac33b5411f4f
+1648453229917	Marionette	INFO	Listening on port 50108
+1648453230444	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648453232576	Marionette	INFO	Stopped listening on port 50108
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Admin\AppData\Local\Temp\rust_mozprofilehmbyVW\protections.sqlite
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: Send(msgname=PContent::Msg_ScriptErrorWithStack) Channel closing: too late to send/recv, messages will be lost
+
+1648453235313	geckodriver	INFO	Listening on 127.0.0.1:50149
+1648453238379	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50150" "-no-remote" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofileHE62pJ"
+1648453239200	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofileHE62pJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50150/devtools/browser/24deb52a-4e4b-4ae0-b558-c0fc7800a60b
+1648453245062	Marionette	INFO	Listening on port 50155
+1648453245609	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://admin-demo.nopcommerce.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://admin-demo.nopcommerce.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1648453255973	Marionette	INFO	Stopped listening on port 50155
+[Parent 7564, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+1648453453199	geckodriver	INFO	Listening on 127.0.0.1:50235
+1648453456287	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50236" "-no-remote" "-profile" "C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofileXIV82n"
+1648453456951	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Admin\\AppData\\Local\\Temp\\rust_mozprofileXIV82n\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50236/devtools/browser/62e083b7-e227-451b-9aa1-af9051033230
+1648453461000	Marionette	INFO	Listening on port 50241
+1648453461164	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1648453463913	Marionette	INFO	Stopped listening on port 50241
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Admin\AppData\Local\Temp\rust_mozprofileXIV82n\protections.sqlite
+1648453465306	geckodriver	INFO	Listening on 127.0.0.1:50283
